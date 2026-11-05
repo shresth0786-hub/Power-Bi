@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Starter monthly revenue line chart for the Power BI Custom Visuals Lab.",
+  "data": { "name": "dataset" },
+  "mark": {
+    "type": "line",
+    "point": { "filled": true, "size": 60 },
+    "tooltip": true
+  },
+  "encoding": {
+    "x": {
+      "field": "Year-Month",
+      "type": "ordinal",
+      "title": "Month",
+      "sort": null
+    },
+    "y": {
+      "field": "Revenue",
+      "type": "quantitative",
+      "title": "Revenue",
+      "axis": { "format": "$,.0f" }
+    },
+    "tooltip": [
+      { "field": "Year-Month", "type": "ordinal", "title": "Month" },
+      { "field": "Revenue", "type": "quantitative", "title": "Revenue", "format": "$,.2f" }
+    ]
+  }
+}
