@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Average delivery days by destination region</title>
+  <desc id="desc">Horizontal bar chart of average calendar days between order and delivery for 24 fictional orders. East averages 5.29 days over 7 orders; North 5.40 days over 5 orders; South 3.50 days over 6 orders; West 3.67 days over 6 orders. Overall average is 4.46 days. North, not East, has the highest regional average.</desc>
+  <rect width="1200" height="560" rx="24" fill="#101827"/>
+  <text x="56" y="64" fill="#f1f5f9" font-family="Arial,sans-serif" font-size="28" font-weight="700">Average delivery time by destination</text>
+  <text x="56" y="94" fill="#94a3b8" font-family="Arial,sans-serif" font-size="15">Calendar days from order date to delivery date · 24 fictional orders</text>
+  <rect x="916" y="38" width="229" height="74" rx="14" fill="#17283a" stroke="#29465b"/>
+  <text x="936" y="65" fill="#94a3b8" font-family="Arial,sans-serif" font-size="12">OVERALL AVERAGE</text>
+  <text x="936" y="96" fill="#5eead4" font-family="Arial,sans-serif" font-size="25" font-weight="700">4.46 days</text>
+  <g fill="#cbd5e1" font-family="Arial,sans-serif" font-size="16">
+    <text x="84" y="196">North</text><text x="84" y="286">East</text><text x="84" y="376">West</text><text x="84" y="466">South</text>
+  </g>
+  <g fill="#26364b">
+    <rect x="230" y="163" width="700" height="40" rx="9"/><rect x="230" y="253" width="700" height="40" rx="9"/><rect x="230" y="343" width="700" height="40" rx="9"/><rect x="230" y="433" width="700" height="40" rx="9"/>
+  </g>
+  <g>
+    <rect x="230" y="163" width="630" height="40" rx="9" fill="#f59e0b"/>
+    <rect x="230" y="253" width="617.2" height="40" rx="9" fill="#60a5fa"/>
+    <rect x="230" y="343" width="428.2" height="40" rx="9" fill="#2dd4bf"/>
+    <rect x="230" y="433" width="408" height="40" rx="9" fill="#a78bfa"/>
+  </g>
+  <g fill="#f1f5f9" font-family="Arial,sans-serif" font-size="16" font-weight="700">
+    <text x="880" y="189">5.40 days</text><text x="868" y="279">5.29 days</text><text x="679" y="369">3.67 days</text><text x="659" y="459">3.50 days</text>
+  </g>
+  <g fill="#94a3b8" font-family="Arial,sans-serif" font-size="12">
+    <text x="230" y="222">5 orders</text><text x="230" y="312">7 orders</text><text x="230" y="402">6 orders</text><text x="230" y="492">6 orders</text>
+  </g>
+  <text x="56" y="526" fill="#718096" font-family="Arial,sans-serif" font-size="12">North has the highest average (5.40 days) in this small sample. Regional differences are exploratory, not predictive.</text>
+</svg>

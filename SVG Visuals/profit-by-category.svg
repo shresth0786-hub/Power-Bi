@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Profit by product category from sample orders</title>
+  <desc id="desc">Horizontal bar chart of profit, calculated as revenue minus cost, from 24 fictional orders. Furniture profit is 958 dollars from 8 orders, Electronics profit is 444 dollars and 71 cents from 8 orders, and Office profit is 272 dollars and 84 cents from 8 orders. Total profit is 1675 dollars and 55 cents; overall profit margin is 38.45 percent.</desc>
+  <rect width="1200" height="560" rx="24" fill="#101827"/>
+  <text x="56" y="64" fill="#f1f5f9" font-family="Arial,sans-serif" font-size="28" font-weight="700">Profit by product category</text>
+  <text x="56" y="94" fill="#94a3b8" font-family="Arial,sans-serif" font-size="15">Profit = revenue − cost · 24 fictional orders</text>
+  <rect x="916" y="38" width="229" height="74" rx="14" fill="#17283a" stroke="#29465b"/>
+  <text x="936" y="65" fill="#94a3b8" font-family="Arial,sans-serif" font-size="12">TOTAL PROFIT</text>
+  <text x="936" y="96" fill="#5eead4" font-family="Arial,sans-serif" font-size="25" font-weight="700">$1,675.55</text>
+  <g fill="#cbd5e1" font-family="Arial,sans-serif" font-size="16">
+    <text x="70" y="208">Furniture</text><text x="70" y="318">Electronics</text><text x="70" y="428">Office</text>
+  </g>
+  <g fill="#26364b">
+    <rect x="260" y="174" width="720" height="48" rx="10"/><rect x="260" y="284" width="720" height="48" rx="10"/><rect x="260" y="394" width="720" height="48" rx="10"/>
+  </g>
+  <g>
+    <rect x="260" y="174" width="720" height="48" rx="10" fill="#2dd4bf"/>
+    <rect x="260" y="284" width="334.4" height="48" rx="10" fill="#60a5fa"/>
+    <rect x="260" y="394" width="205.2" height="48" rx="10" fill="#a78bfa"/>
+  </g>
+  <g fill="#f1f5f9" font-family="Arial,sans-serif" font-size="18" font-weight="700">
+    <text x="1000" y="205">$958.00</text><text x="614" y="315">$444.71</text><text x="485" y="425">$272.84</text>
+  </g>
+  <g fill="#94a3b8" font-family="Arial,sans-serif" font-size="12">
+    <text x="260" y="248">8 orders</text><text x="260" y="358">8 orders</text><text x="260" y="468">8 orders</text>
+  </g>
+  <line x1="56" y1="492" x2="1144" y2="492" stroke="#29384b"/>
+  <text x="56" y="526" fill="#718096" font-family="Arial,sans-serif" font-size="12">Overall revenue: $4,357.30 · Overall profit margin: 38.45% · Category totals calculated from data/orders.csv.</text>
+</svg>
