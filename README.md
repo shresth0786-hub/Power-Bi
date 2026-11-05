@@ -1,60 +1,40 @@
 # Power BI Design Files
 
-Welcome to my gallery of high-impact Power BI dashboards.
+Welcome to my gallery of Power BI dashboards and design experiments.
 
-This repository is a portfolio-style collection of dashboard examples, design references, custom visual notes, and reusable Power BI assets for learning and inspiration.
+This repository is a portfolio-style collection of dashboard examples, design references, custom visual notes, and reusable assets for learning and inspiration.
 
-> All sample dashboards and supporting files are shared for learning, experimentation, and portfolio development.
+## Dashboard preview
+
+The preview below is an **original static mockup** for the Order Flow & Fulfillment project. It uses the repository's fictional sample data and is intended to show the report's visual direction; it is not a screenshot of a finished Power BI `.pbix` report.
+
+![Order Flow & Fulfillment dashboard mockup](SVG%20Visuals/fulfillment-dashboard-preview.svg)
 
 ## Repository structure
 
-This project is organized into the following folders:
+- **[Full Dashboards](Full%20Dashboards/)** — complete report examples and supporting materials.
+- **[Native Visuals](Native%20Visuals/)** — examples and notes on Power BI's built-in visuals.
+- **[Custom Visuals](Custom%20Visuals/)** — custom visual references and evaluation guidance.
+- **[SVG Visuals](SVG%20Visuals/)** — original SVG mockups and visual experiments.
+- **[Theme JSON Files](Theme%20JSON%20Files/)** — reusable report theme resources.
+- **[Figma](Figma/)** — layout inspiration and planning resources.
+- **[Project build guide](docs/report-build-guide.md)** — instructions to create the interactive report.
+- **[Sample data](data/orders.csv)** — fictional order and delivery records.
 
-### 1. Full Dashboards
-- Complete dashboard examples with layouts, visuals, and supporting data.
-- Best place to study real-world report composition and design decisions.
+## What the preview demonstrates
 
-### 2. Native Visuals
-- Examples built using built-in Power BI visuals.
-- Helps you understand the strengths and limitations of Power BI's default toolkit.
+- KPI cards for revenue, profit, margin, and orders
+- Monthly revenue trend
+- Category profit comparison
+- A clean, dark dashboard layout with a region filter
 
-### 3. Custom Visuals
-- A curated set of popular custom visuals and installation notes.
-- Includes guidance on when a custom visual adds value and when a native chart is the better choice.
-
-### 4. SVG Visuals
-- Reusable SVG-based assets and design ideas for more distinctive dashboard visuals.
-
-### 5. Theme JSON Files
-- Reusable JSON themes for consistency in color, fonts, and styling.
-
-### 6. Figma
-- Dashboard frame references and layout inspiration created for design thinking before implementation in Power BI.
-
-## What is included
-
-- Power BI dashboard examples and design inspiration
-- Sample data for experimentation and learning
-- Custom visual references and setup notes
-- Theme files for consistent styling
-- Figma-inspired mockup resources for dashboard planning
-
-## Best use cases
-
-- Learn dashboard layout and UX
-- Build a Power BI portfolio
-- Explore custom visuals safely
-- Practice report design before building in Power BI Desktop
+The figures in the mockup are aggregated from the included sample CSV. The report-building guide explains how to recreate the analysis in Power BI. For a portfolio, replace this mockup with screenshots of your finished report once you have built and tested the `.pbix`.
 
 ## Important notes
 
-- This repo is intended for personal learning and portfolio work.
-- Replace sample data with your own authorized datasets before publishing to a public portfolio.
-- Review licensing and security requirements before using third-party visuals or assets in business contexts.
-- Keep a clear separation between inspiration and your original work.
-
-## Suggested workflow
-
-Idea → Mockup → Power BI → Final dashboard → Portfolio README
+- This repository is intended for learning and portfolio work.
+- The included dataset is fictional. Use only data you are authorized to publish.
+- Review licensing, security, accessibility, and tenant requirements before using third-party visuals or assets.
+- Keep a clear distinction between design inspiration, mockups, and your own completed interactive reports.
 
 Happy Visualizing!
